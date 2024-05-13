@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Testing in Chrome">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="Amazon_Test.Amazon_ProductAddingToCart"/>
+      <class name="Amazon_Test.Amazon_SuccesfulRegistration"/>
+      <class name="Amazon_Test.Amazon_SelectEachPaymentMethod"/>
+      <class name="Amazon_Test.Amazon_UnsuccessfullLogin"/>
+      <class name="Amazon_Test.Amazon_RateLastOrderdProduct"/>
+      <class name="Amazon_Test.Amazon_SuccessfullEditProfile"/>
+      <class name="Amazon_Test.Amazon_SearchProductsWithFilters"/>
+      <class name="Amazon_Test.Amazon_AddToCart_WithoutLogin"/>
+      <class name="Amazon_Test.Amazon_UpdateItemsInCart"/>
+      <class name="Amazon_Test.Amazon_SuccessfullLogin"/>
+      <class name="Amazon_Test.Amazon_ProductCheckOut"/>
+      <class name="Amazon_Test.Amazon_ApplyCouponCode"/>
+      <class name="Amazon_Test.Amazon_SearchtheProduct"/>
+      <class name="Amazon_Test.Amazon_ValidSearchProductInformation"/>
+      <class name="Amazon_Test.Amazon_SortSearchResults"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Testing in Edge">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="Amazon_Test.Amazon_ProductAddingToCart"/>
+      <class name="Amazon_Test.Amazon_SuccesfulRegistration"/>
+      <class name="Amazon_Test.Amazon_SelectEachPaymentMethod"/>
+      <class name="Amazon_Test.Amazon_UnsuccessfullLogin"/>
+      <class name="Amazon_Test.Amazon_RateLastOrderdProduct"/>
+      <class name="Amazon_Test.Amazon_SuccessfullEditProfile"/>
+      <class name="Amazon_Test.Amazon_SearchProductsWithFilters"/>
+      <class name="Amazon_Test.Amazon_AddToCart_WithoutLogin"/>
+      <class name="Amazon_Test.Amazon_UpdateItemsInCart"/>
+      <class name="Amazon_Test.Amazon_SuccessfullLogin"/>
+      <class name="Amazon_Test.Amazon_ProductCheckOut"/>
+      <class name="Amazon_Test.Amazon_ApplyCouponCode"/>
+      <class name="Amazon_Test.Amazon_SearchtheProduct"/>
+      <class name="Amazon_Test.Amazon_ValidSearchProductInformation"/>
+      <class name="Amazon_Test.Amazon_SortSearchResults"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

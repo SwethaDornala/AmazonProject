@@ -70,7 +70,7 @@ public class Amazon_Login_Page {
 	}
 	public void invalidpassword()
 	{
-		Invalid_Password=w1.getSheet("Login_Data").getRow(2).getCell(1).getStringCellValue();
+		Invalid_Password="GroTechminds@123";
 		password_tf.sendKeys(Invalid_Password);
 	}
 	public void continuebutton()
